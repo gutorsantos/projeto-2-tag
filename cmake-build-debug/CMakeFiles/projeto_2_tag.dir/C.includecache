@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gustavo/Documents/projeto-2-tag/constants.h
+
+/home/gustavo/Documents/projeto-2-tag/file.h
+
+/home/gustavo/Documents/projeto-2-tag/graph.h
+constants.h
+/home/gustavo/Documents/projeto-2-tag/constants.h
+
+/home/gustavo/Documents/projeto-2-tag/list.h
+constants.h
+/home/gustavo/Documents/projeto-2-tag/constants.h
+string.h
+-
+
+/home/gustavo/Documents/projeto-2-tag/main.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+graph.h
+/home/gustavo/Documents/projeto-2-tag/graph.h
+file.h
+/home/gustavo/Documents/projeto-2-tag/file.h
+list.h
+/home/gustavo/Documents/projeto-2-tag/list.h
+matching.h
+/home/gustavo/Documents/projeto-2-tag/matching.h
+
+/home/gustavo/Documents/projeto-2-tag/matching.h
+graph.h
+/home/gustavo/Documents/projeto-2-tag/graph.h
+list.h
+/home/gustavo/Documents/projeto-2-tag/list.h
+constants.h
+/home/gustavo/Documents/projeto-2-tag/constants.h
+
