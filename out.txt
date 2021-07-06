@@ -1,0 +1,173 @@
+The graph already contains this edge!
+
+A escola 1 possui os professores:
+	(2) 48
+A escola 2 possui os professores:
+	(2) 37
+A escola 3 possui os professores:
+	(3) 0
+A escola 4 possui os professores:
+	(2) 4
+A escola 5 possui os professores:
+	(2) 6
+A escola 6 possui os professores:
+	(2) 47
+A escola 7 possui os professores:
+	(3) 10
+A escola 8 possui os professores:
+	(3) 60
+A escola 9 possui os professores:
+	(2) 62
+A escola 10 possui os professores:
+	(1) 21
+	(2) 2
+A escola 11 possui os professores:
+	(3) 40
+	(3) 45
+A escola 12 possui os professores:
+	(3) 70
+	(3) 0
+A escola 13 possui os professores:
+	(3) 0
+	(3) 0
+A escola 14 possui os professores:
+	(3) 0
+	(2) 66
+A escola 15 possui os professores:
+	(3) 0
+	(1) 61
+A escola 16 possui os professores:
+	(3) 85
+A escola 17 possui os professores:
+	(3) 0
+A escola 18 possui os professores:
+	(3) 0
+A escola 19 possui os professores:
+	(3) 0
+	(2) 19
+A escola 20 possui os professores:
+	(3) 5
+	(2) 2
+A escola 21 possui os professores:
+	(3) 80
+	(2) 72
+A escola 22 possui os professores:
+	(3) 0
+	(1) 22
+A escola 23 possui os professores:
+	(3) 0
+	(2) 23
+A escola 24 possui os professores:
+	(3) 0
+	(1) 77
+A escola 25 possui os professores:
+	(3) 0
+	(2) 11
+A escola 26 possui os professores:
+	(2) 75
+	(1) 0
+A escola 27 possui os professores:
+	(2) 12
+	(2) 74
+A escola 28 possui os professores:
+	(2) 28
+	(1) 73
+A escola 29 possui os professores:
+	(2) 29
+	(2) 0
+A escola 30 possui os professores:
+	(2) 13
+A escola 31 possui os professores:
+	(2) 82
+A escola 32 possui os professores:
+	(2) 69
+	(2) 0
+A escola 33 possui os professores:
+	(2) 68
+	(2) 0
+A escola 34 possui os professores:
+	(2) 34
+	(2) 64
+A escola 35 possui os professores:
+	(2) 8
+	(1) 71
+A escola 36 possui os professores:
+	(2) 36
+	(1) 65
+A escola 37 possui os professores:
+	(2) 7
+	(1) 17
+A escola 38 possui os professores:
+	(2) 38
+	(1) 63
+A escola 39 possui os professores:
+	(2) 18
+	(1) 39
+A escola 40 possui os professores:
+	(2) 24
+	(1) 41
+A escola 41 possui os professores:
+	(2) 59
+	(2) 92
+A escola 42 possui os professores:
+	(2) 42
+	(3) 0
+A escola 43 possui os professores:
+	(3) 20
+	(2) 43
+A escola 44 possui os professores:
+	(2) 57
+	(3) 90
+A escola 45 possui os professores:
+	(2) 26
+	(3) 30
+A escola 46 possui os professores:
+	(2) 46
+	(3) 55
+A escola 47 possui os professores:
+	(2) 53
+	(3) 95
+A escola 48 possui os professores:
+	(1) 14
+A escola 49 possui os professores:
+	(3) 0
+A escola 50 possui os professores:
+	(2) 32
+	(2) 33
+
+Professores não alocados: 
+3 2 [0, 0, 0, 0]
+16 2 [0, 0, 0, 0]
+27 2 [0, 0, 0, 0]
+31 1 [0, 0, 0, 0]
+41 1 [0, 0, 0, 0]
+44 2 [0, 0, 0, 0]
+49 2 [0, 0, 0, 0]
+50 3 [0, 0, 0, 0]
+51 1 [0, 0, 0, 0]
+52 2 [0, 0, 0, 0]
+54 2 [0, 0, 0, 0]
+56 2 [0, 0, 0, 0]
+58 2 [0, 0, 0, 0]
+67 2 [0, 0, 0, 0]
+68 2 [0, 0, 0, 0]
+71 1 [0, 0, 0, 0]
+76 2 [0, 0, 0, 0]
+78 2 [0, 0, 0, 0]
+79 2 [0, 0, 0, 0]
+81 1 [0, 0, 0, 0]
+82 2 [0, 0, 0, 0]
+83 2 [0, 0, 0, 0]
+84 2 [0, 0, 0, 0]
+86 2 [0, 0, 0, 0]
+87 2 [0, 0, 0, 0]
+88 2 [0, 0, 0, 0]
+89 2 [0, 0, 0, 0]
+91 1 [0, 0, 0, 0]
+93 2 [0, 0, 0, 0]
+94 2 [0, 0, 0, 0]
+96 2 [0, 0, 0, 0]
+97 2 [0, 0, 0, 0]
+98 2 [0, 0, 0, 0]
+99 2 [0, 0, 0, 0]
+100 3 [0, 0, 0, 0]

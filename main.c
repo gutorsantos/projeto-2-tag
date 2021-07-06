@@ -21,8 +21,10 @@ int main() {
     char line[256];
     int line_counter = 0;
 
-    Professor* professor_list = create_list_professor();
-    School* school_list = create_list_school();
+    Professor professor_list[NUM_PROFS];
+    memset(professor_list, 0, sizeof(professor_list));
+    School school_list[NUM_SCHOOLS];
+    memset(school_list, 0, sizeof(school_list));
 
     // Le os dados do arquivo e adiciona ao grafo
     FILE* file = readFile();
@@ -33,7 +35,7 @@ int main() {
         if( line_counter > 2 && line_counter < 103) {
             sscanf(line, "(P%d, %d): (E%d, E%d, E%d, E%d)", &prof_id, &qualification, &schools[0], &schools[1], &schools[2], &schools[3]);
             //printf("%d %d %d %d %d %d\n", prof_id, qualification, schools[0], schools[1], schools[2], schools[3]);
-            professor_list = insert_professor(professor_list, prof_id, qualification, schools);
+            professor_list[prof_id] = insert_professor(prof_id, qualification, schools);
             
             for(int i = NUM_MAX_PREFERENCE-1; i >= 0; i--) {
                 if(schools[i] != 0) {
@@ -43,23 +45,28 @@ int main() {
         }else if(line_counter > 105 ){
             sscanf(line, "(E%d):(%d):(%d)", &school_id, &requirements[0], &requirements[1]);
             //printf("%d %d %d\n", school_id, requirements[0], requirements[1]);
-            school_list = insert_school(school_list, school_id, requirements);
+            school_list[school_id] = insert_school(school_id, requirements);
         }
         line_counter++;
     }
-    closeFile(file);        // fecha o arquivo
+    closeFile(file);        // fecha o arquivo*/
 
-    /* print_professor_list(professor_list);
-    print_school_list(school_list);
+    Professor teste[NUM_PROFS];
+    memcpy(teste, professor_list, NUM_PROFS*sizeof(Professor));
+    // PRINT GRAPH
+    // print_graph(graph, 'p');
+    // print_graph(graph, 'e');
+    gale_shapley(graph, teste, school_list);
+    printf("alo");
+    for(int i = 1; i < NUM_PROFS; i++) {
+        if(teste[i].is_hired == 0) {
+            memcpy(teste[i].preferences, professor_list[i].preferences, NUM_PROFS*sizeof(Professor));
+            
+        }
+    }
+    gale_shapley(graph, teste, school_list);
+    print_matching(school_list, teste);
 
-    print_graph(graph, 'p');
-    print_graph(graph, 'e');*/
-    
-    gale_shapley(graph, professor_list, school_list);
-
-    //print_teste(school_list);
     destroy_graph(graph);
-    destroy_professor(professor_list);
-    destroy_school(school_list);
     return 0;
 }

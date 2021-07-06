@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/projeto_2_tag.dir/main.c.o -o projeto_2_tag 

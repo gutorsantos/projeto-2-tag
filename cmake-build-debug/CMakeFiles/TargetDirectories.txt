@@ -1,3 +1,0 @@
-/home/gustavo/Documents/projeto-2-tag/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/gustavo/Documents/projeto-2-tag/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/gustavo/Documents/projeto-2-tag/cmake-build-debug/CMakeFiles/projeto_2_tag.dir
